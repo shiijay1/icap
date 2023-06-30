@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+        	margin: 0;
+        	padding: 0;
+        	box-sizing: border-box;
+        }
+        
+        .image {
+        	background-image: url("LA13 BACKGROUND.png");
+        	min-height: 750px;
+        
+        	background-position: center;
+        	background-repeat: no-repeat;
+        	background-size: cover;
+        	background-attachment: fixed;
+        }
+        
+        .container div {
+        	display: inline-block;
+        	display: flex;
+        	align-items: center;
+        	padding-left: 30px;
+        	padding-right: 30px;
+        }
+        
+        .nav {
+        	display: inline-block;
+        	
+        }
+        
+        .nav a {
+        	text-decoration: none;
+        	list-style: none;
+        	color: white;
+        	margin: auto;
+        }
+        
+        .iframecontainer {
+        	margin-left: 350px;
+        	margin-top:  150px;
+        	position: relative;
+        	overflow: hidden;
+        	padding-top: 50.25%;
+        }
+        
+        .iframecontainer iframe {
+        	position: absolute;
+        	top: 0;
+        	left: 0;
+        	width: 70%;
+        	height: 50%;
+        }
+        
+        .tagline {
+        	letter-spacing: 1px;
+        	font-family: sans-serif;
+        	font-size: 30px;
+        	color: white;
+        	position: absolute;
+        	top: 90%;
+        	left: 50%;
+        	transform: translate(-50%, -50%);
+        }
+        
+        .lalagyan {
+        	display: flex;
+        	align-content: center;
+        	margin: auto;
+        }
+        
+        .categ ul, li {
+        	margin: auto;
+        	padding: auto;
+        	text-align: justify;
+        }
+        
+        .lalagyan div {
+        	align-items: center;
+        	width: 100%;
+        	text-align: center;
+        	font-size: 25px;
+        	color: #5E8494;
+        	margin: auto;
+        	font-family: sans-serif;
+        	line-height: 1px;
+        }
+        
+        .footer {
+        	width: 100%;
+        	padding: 20px 0;
+        	background: #5E8494;
+        	display: flex;
+        	
+        }
+        
+        .footer div {
+        	align-items: center;
+        	margin: auto;
+        	line-height: 30px;
+        }
+        
+        .col1 img, .col2 a, .col3 a {
+        	flex-grow: 2;
+        }
+        
+        .col2 a, .col3 a, .col4 a {
+        	text-decoration: none;
+        	text-align: left;
+        	list-style: none;
+        	color: white;
+        	font-family: sans-serif;
+        	text-transform: uppercase;
+        	font-style: bold;
+        	font-size: 12px;
+        	letter-spacing: 2px;
+        	margin-right: 25px;
+        }
+        
+        
+        .imgs {
+        	display: flex;
+        }
+    </style>
+	<title> iCap — Home </title>
+	<link href="PROG3 LA15 (STYLE).css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!-- Headline Navigation -->
+	<tr><td>
+			<div class="image">
+			<p class="tagline"> <i><q> Capturing moments, Framing memories </i></q> </p>
+				<div class="container">
+					<div class="nav">
+						<img src="LA13 LOGO.png" alt="Logo" 
+						height="50" width="100"
+						style="margin-left: 15px" ; "margin-right: 15px" />
+						
+						<a href = "/index.html" ;
+						style="margin-left: 50px" ;
+						> <b> <small> HOME </small> </b> </a>
+						 
+						<a href = "/about/index.html" ;
+						style="margin-left: 50px" 
+						> <b> <small> ABOUT </small> </b> </a>
+						
+						<a href = "/update/index.html" ;
+						style="margin-left: 50px" 
+						> <b> <small> UPDATE </small> </b> </a>
+						
+						<img src="LA13 SEARCH BAR.png" alt="Search" 
+						height="50px" width="400px"
+						style="margin-left: 330px" />
+						
+						<a href="index.html"><img src="LA13 MSGS.png" alt="Message" 
+						height="30px" width="30px"
+						style="margin-left: 15px" /></a>
+						
+						<a href="index.html"><img src="LA13 NOTIF.png" alt="Notification" 
+						height="30px" width="30px"
+						style="margin-left: 15px" /></a>
+						
+						<!-- Call to Action -->
+						<a href="index.html"><img src="LA13 LOGIN.png" alt="Log In" 
+						height="30px" width="30px"
+						style="margin-left: 15px" /></a>
+						
+						<a href="index.html"><img src="LA13 MENU BAR.png" alt="Menu" 
+						height="30px" width="30px"
+						style="margin-left: 15px" /></a>
+					</div>
+					
+					<!-- Website Video -->
+					<div class="iframecontainer">
+						<iframe width="1000" height="515" src="https://www.youtube.com/embed/AmoNqazrhwo"
+						frameborder="0" allow="accelerometeer; autoplay; encrypted-media; picture-in-picture" 
+						allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<br />
+			
+		<!-- Website Contents -->
+		<div class="lalagyan">
+				<div  class="categ"> 
+					<h5> <tt> <big> CATEGORIES </big> </tt> </h5>
+					<p style="font-size: 15px"
+					<small> Inspire and explore the world of <em> memories </em> </small> </p>
+					<p style="font-size: 15px"
+					<small> that were kept for centuries. </small> </p>
+					
+					<ul style="text-decoration: none; line-height: 20px; font-size: 15px; 
+						text-align: justify; margin-left: 80px">
+						<li>Arts</li>
+						<li>Designs</li>
+						<li>Landscape</li>
+						<li>Cityscape</li>
+						<li>Foods and Drinks</li>
+					</ul>
+					
+					<div> <img src="Categories Thumbnail.png" alt="Categories Thumbnail" 
+						height="150" width="330" border="3" style="margin-top: 20px"/>
+					</div>
+				</div>
+				
+				<div  class="moments"> 
+					<h5> <tt> <big> MOMENTS </big> </tt> </h5>
+					<p style="font-size: 15px"
+					<small> A moment of past and present should be <strong> cherished, </strong> </small> </p>
+					<p style="font-size: 15px"
+					<small> we mustn't let anything <dfn> perish. </dfn> </small> </p>
+
+					 <ul style="text-decoration: none; line-height: 20px; font-size: 15px; 
+						text-align: justify; margin-left: 80px">
+						<li>Family</li>
+						<li>Friends</li>
+						<li>Holidays</li>
+						<li>Birthdays</li>
+						<li>Anniversaries</li>
+					</ul>
+					
+					<div> <img src="Moments Thumbnail.png" alt="Moments Thumbnail" 
+						height="150" width="330" border="3" style="margin-top: 20px"/>
+					</div>
+				</div>
+				
+				<div  class="comm"> 
+					<h5> <tt> <big> COMMUNITY </big> </tt> </h5>
+					<p style="font-size: 15px"
+					<small> Together with <acronym> iCap, </acronym> you can share memories </small> </p>
+					<p style="font-size: 15px"
+					<small> and create your very own stories. </small> </p>
+					
+					<ul style="text-decoration: none; line-height: 20px; font-size: 15px; 
+						text-align: justify; margin-left: 80px">
+						<li>Student</li>
+						<li>Employed</li>
+						<li>Organization</li>
+						<li>Non-Organization</li>
+						<li>Others</li>
+					</ul>
+					
+					<div> <img src="Community Thumbnail.png" alt="Community Thumbnail" 
+						height="150" width="330" border="3" style="margin-top: 20px"/>
+					</div>
+				</div>
+		</div>
+	</td></tr>
+	
+	<br /><br />
+	
+	<!-- Table -->
+	<div style="line-height: 50px;">
+		<table cellpadding="5px" height="20px" width="1000px" border="1" style="margin: auto; align-content: center;">
+			<caption style="color: #5E8494; text-align: center; font-family: calibri; font-size: 19px;" 
+			>TOTAL VISITORS</caption>
+			<tr style="background-color: #5E8494; text-align: center">
+				<td style="font-family: arial; font-size: 30px; font-style: bold; color: white;">00,000</td>
+			</tr>
+		</table>
+	</div>
+	<br /><br />
+	
+	<!-- Footer Navigation -->
+	<div class="footer">
+		<div class="col1">
+			<img src="LA13 LOGO.png" alt="Logo" 
+				height="70" width="140" /><br />
+			<div class="imgs">
+				<img src="LA14 FACEBOOK.png" alt="facebook" 
+					height="40" width="20"/>
+				<img src="LA14 INSTAGRAM.png" alt="instagram" 
+					height="40" width="20" />
+				<img src="LA14 TWITTER.png" alt="twitter" 
+					height="40" width="20" />
+			</div>
+		</div>
+		
+		<!-- Call to Action -->
+		<div class="col2">
+			<a href="index.html">Visit Us</a><br />
+			<a href="index.html">Contacts</a><br />
+			<a href="index.html">News</a>
+		</div>
+		<div class="col3">
+			<a href="index.html">Support</a><br />
+			<a href="index.html">Terms of Service</a><br />
+			<a href="index.html">Information</a>
+		</div>
+		<div class="col4">
+			<a href="index.html">Privacy and Policy</a><br />
+			<a href="index.html">Copyright</a><br />
+			<a href="index.html">Quick Links</a>
+		</div>
+	</div>
+
+</body>
+</html>
